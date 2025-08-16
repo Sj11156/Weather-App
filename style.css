@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #87cefa, #f0f2f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+body.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+body.dark-mode .container {
+  background: #1e1e1e;
+  color: white;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+input, button {
+  padding: 10px;
+  margin: 10px 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#getWeather {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#getWeather:hover {
+  background-color: #0056b3;
+}
+
+.weather-icon {
+  width: 50px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.forecast-day {
+  text-align: center;
+}
+
+#recentSearches button {
+  margin: 5px;
+  padding: 5px 10px;
+}
